@@ -1,0 +1,180 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto';
+} 
+.header{
+    background-color: #3b5998;
+    display: flex;
+    margin-top: 0px;
+    padding:0px;
+    height:79px
+}
+.left_header{
+    width: 50%;
+    color: white;
+    font-size:35px;
+    padding-left: 185px;
+    padding-top:25px;
+}
+h3{
+    color:rgba(6, 6, 19, 0.808);
+    font-size:22px;
+    padding-top: 31px;
+}
+.right_header{
+    justify-content: end;
+    width: 50%;
+    display: flex;
+    padding: 15px 15px;
+    padding-left:119px;
+}
+
+.emails_phone{
+    border: 1px solid #000000;
+    padding: 5px 5px;
+    height: 15px;
+    width:135px;
+}
+.password{
+    border: 1px solid black;
+    width:141px;
+    height:22px;
+}
+label>a{
+    color: rgb(190, 190, 226);
+}
+.body{
+    display: flex;
+}
+.left_body{
+    background-color:#e9ebee;
+    width: 50%;
+    height:500px;
+    padding-left: 185px;
+    font-size:25px;
+    height: 580px;
+       
+}
+.right_body{
+    background-color:#e9ebee;
+    width: 50%;
+    padding: 0%
+}
+p{
+    font-size:35px;
+    padding-left:55px;
+    margin: 0px 0px;
+    margin-top:9px;
+    color: #000000d3;
+    color: rgba(0, 0, 0, 0.74);
+
+}
+.signup_field{
+ color: black;
+ padding-left:55px;
+ margin: 0px 0px; 
+    font-size:20px;
+    color: rgba(0, 0, 0, 0.74);
+}
+.text{
+    padding-left:55px;
+    margin: 0px 0px;
+    font-size:20px;
+    color: rgba(0, 0, 0, 0.74);
+    
+}
+::placeholder{
+    color:black;
+    font-size:15px;
+}
+.signup_button{
+    color: rgb(255, 255, 255);
+    padding:9px 55px;
+    font-size:25px;
+    background-color: rgba(3, 75, 3, 0.753);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login_field {
+    display: flex;
+    
+}
+.login{
+    padding:19px 0px;
+    margin: 0;
+}
+
+.login_button{
+    color:white;
+    background-color:#4c6db3;
+    padding: 3px 7px;
+    cursor: pointer;
+    border: 1px solid rgba(8, 8, 8, 0.185);
+    border-radius: 3px;
+    font-size: 13px;
+   border: 1px solid rgba(49, 7, 165, 0.616);
+   margin-right: 0;
+
+}.pass{
+    padding: 1px 15px;
+    color: white;
+    font-size: 13px;
+}
+.emails{
+    color: white;
+    font-size: 13px;
+}
+ .signup_field> input[type=text]{
+    background-color: rgb(246, 250, 243);
+    padding:9px 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border: 1px solid #0000008e;
+    border-radius: 5px;
+}
+.signup_field> input[type=email]{
+    background-color: rgb(246, 250, 243);
+    padding:9px ;
+    padding-right:231px;
+    border: 1px solid #0000008e;
+    border-radius: 5px; 
+    margin-top: 10px; 
+}
+.signup_field> input[type=password]{
+    background-color: rgb(246, 250, 243);
+    padding:9px ;
+    padding-right:231px;
+    border: 1px solid #0000008e; 
+    border-radius: 5px; 
+    margin-top: 10px;
+}
+.signup_field> input[type=date]{
+    background-color: rgb(246, 250, 243);
+    padding:9px ;
+    padding-right:253px;
+    border: 1px solid #0000008e; 
+    border-radius: 5px; 
+    margin-top: 0px;
+}
+
+.birthday{
+margin-top: 11px;
+font-size: 17px;
+}
+.body_fotter{
+    font-size:13px;
+}
+.login_button:hover {
+    background-color:rgb(86, 75, 243);
+}
+.signup_button:hover{
+    background-color:rgb(15, 58, 15);
+}
+.gender_slection{
+    margin-top: 7px;
+    font-size: 19px;
+}
+.body_fotter>a:link{
+    text-decoration: none;
+}
